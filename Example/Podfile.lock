@@ -1,0 +1,16 @@
+PODS:
+  - zUILabelFaker (0.1.0)
+
+DEPENDENCIES:
+  - zUILabelFaker (from `../`)
+
+EXTERNAL SOURCES:
+  zUILabelFaker:
+    :path: ../
+
+SPEC CHECKSUMS:
+  zUILabelFaker: 912fcc1a4a76ca0510e8c3848f5a06f775597fc0
+
+PODFILE CHECKSUM: c22d7b2a271f17e6a4d19e83f1a7152859b0d590
+
+COCOAPODS: 1.2.0

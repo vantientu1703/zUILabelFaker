@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		112179DFA052B681DE0B28B155C56944 /* zUILabelFaker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 431A74695B0EE2D59D23C9A56ABA15A9 /* zUILabelFaker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		146F6F37E4C97CD9F6B5DB4CF981724E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		312F6837BFC58E50CD8E54E44A3A59A8 /* zUILabelFaker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A5387F0A88082F72E750C641456806 /* zUILabelFaker-dummy.m */; };
+		3E15E70BA46C368D939E823DA0FC86F4 /* Pods-zUILabelFaker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D69BC0EC10F035ABB32242B7A2D3248 /* Pods-zUILabelFaker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B834AD2D3A1B791F860FF50F2E0936E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A394C1905C7BAB41F5950CC9B7643B68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A9A9456795E784EDF80864E5369739D5 /* Pods-zUILabelFaker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D652511612A9BC5C23614CE90CDC04E9 /* Pods-zUILabelFaker_Example-dummy.m */; };
+		AA91050F7FB0BE7DE88263575979A636 /* Pods-zUILabelFaker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 218FA7608DE817E6A384F4341D925C15 /* Pods-zUILabelFaker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE02F1C784A92CDB00A07A840C2782EA /* Pods-zUILabelFaker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 539F08CA9A30EE857C497C4A90A85C7F /* Pods-zUILabelFaker_Tests-dummy.m */; };
+		D2618646066A1D70BC848A4F0195EE2D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363745A874ECA59E93F4D4D4DF3BBCAF /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		951EB5E8C8B23FA2445767BF145564CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EF0E8F85FBDD9E8D3A62B0C72D540D6;
+			remoteInfo = zUILabelFaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03A5387F0A88082F72E750C641456806 /* zUILabelFaker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "zUILabelFaker-dummy.m"; sourceTree = "<group>"; };
+		17C30D49CB3B10427565ECDD0E106526 /* zUILabelFaker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = zUILabelFaker.xcconfig; sourceTree = "<group>"; };
+		1B64C8FB3C972DACA7AC60C260688FE9 /* Pods-zUILabelFaker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zUILabelFaker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		218FA7608DE817E6A384F4341D925C15 /* Pods-zUILabelFaker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-zUILabelFaker_Example-umbrella.h"; sourceTree = "<group>"; };
+		2401A786C0B276F323F0B2C7ECFAB8AF /* Pods-zUILabelFaker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-zUILabelFaker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		299A8215271FBF7495EAE94651A46358 /* zUILabelFaker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = zUILabelFaker.modulemap; sourceTree = "<group>"; };
+		363745A874ECA59E93F4D4D4DF3BBCAF /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		431A74695B0EE2D59D23C9A56ABA15A9 /* zUILabelFaker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "zUILabelFaker-umbrella.h"; sourceTree = "<group>"; };
+		4374837233A6E3F4D66F4C7A52F90F97 /* Pods-zUILabelFaker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-zUILabelFaker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		49B14007294EEFAFEA3672A441BFFE6C /* Pods_zUILabelFaker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_zUILabelFaker_Tests.framework; path = "Pods-zUILabelFaker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		539F08CA9A30EE857C497C4A90A85C7F /* Pods-zUILabelFaker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-zUILabelFaker_Tests-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6714DAB1038A400BA2B7F854D4782CE8 /* Pods-zUILabelFaker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-zUILabelFaker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6B92E71B157716EA1E5F521CF2ED154D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D5A18151233371AC8B17FC6F1CA1158 /* Pods-zUILabelFaker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zUILabelFaker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		712C84A464FEB1BD1C3EE3F872EFF593 /* Pods_zUILabelFaker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_zUILabelFaker_Example.framework; path = "Pods-zUILabelFaker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D69BC0EC10F035ABB32242B7A2D3248 /* Pods-zUILabelFaker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-zUILabelFaker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8DD827F27FFDB9DB43196D50D3AF13AE /* Pods-zUILabelFaker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-zUILabelFaker_Example-resources.sh"; sourceTree = "<group>"; };
+		8F5BABA43534F60225EE9C21780F6A04 /* Pods-zUILabelFaker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-zUILabelFaker_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		956988D92E5FDBE200A757936945CEEF /* Pods-zUILabelFaker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-zUILabelFaker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		98923DA82614351152A0D71BCA57B7E8 /* Pods-zUILabelFaker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zUILabelFaker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE468BAA8DDBD06CBE51A0AB6B9379B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C05E7CC2611EF1C640B774B4B3D9959E /* Pods-zUILabelFaker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-zUILabelFaker_Tests-resources.sh"; sourceTree = "<group>"; };
+		D6085A6C2B8834949ADD0B1733BDC70D /* zUILabelFaker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "zUILabelFaker-prefix.pch"; sourceTree = "<group>"; };
+		D652511612A9BC5C23614CE90CDC04E9 /* Pods-zUILabelFaker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-zUILabelFaker_Example-dummy.m"; sourceTree = "<group>"; };
+		D923689D2593FA22C8525C7CA0ACE246 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA059C9836A49FDB408CCF2446EAA577 /* Pods-zUILabelFaker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-zUILabelFaker_Tests.modulemap"; sourceTree = "<group>"; };
+		DD453442CBE2A83249A6EBBD45584D76 /* zUILabelFaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = zUILabelFaker.framework; path = zUILabelFaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22E96BCBB53404B4BB72D4875E738C8 /* Pods-zUILabelFaker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-zUILabelFaker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E851C90CA3B3D50C6414FC93E3313B39 /* Pods-zUILabelFaker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-zUILabelFaker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE02C26A1D822BCC1C62E5A1A0182468 /* Pods-zUILabelFaker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zUILabelFaker_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E1B91ADC2EBFB76DB613644412E9188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B834AD2D3A1B791F860FF50F2E0936E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F8DCB3DB29F7787F0172394E4C792F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A394C1905C7BAB41F5950CC9B7643B68 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB7DF165A6CDD1638E90485966200E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146F6F37E4C97CD9F6B5DB4CF981724E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33A4AE82E1DA04A83FA1C64E12790771 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				712C84A464FEB1BD1C3EE3F872EFF593 /* Pods_zUILabelFaker_Example.framework */,
+				49B14007294EEFAFEA3672A441BFFE6C /* Pods_zUILabelFaker_Tests.framework */,
+				DD453442CBE2A83249A6EBBD45584D76 /* zUILabelFaker.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		347CA5A8022499E25EF67C24975531B6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				394AA02677E4039F293F73B4A560B662 /* zUILabelFaker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		34A8AD89FCC266BDE5FFB5D0C32D5BA1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F07DD43C927E8B8DDE026E6C5D095CF2 /* Pods-zUILabelFaker_Example */,
+				69EEECDD4ECBD09D7514FC405E26404F /* Pods-zUILabelFaker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		394AA02677E4039F293F73B4A560B662 /* zUILabelFaker */ = {
+			isa = PBXGroup;
+			children = (
+				725C2AF791598514E56ED0C028DB5762 /* Support Files */,
+				75B34D50A437B702A87AA88E378AD7A3 /* zUILabelFaker */,
+			);
+			name = zUILabelFaker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		69EEECDD4ECBD09D7514FC405E26404F /* Pods-zUILabelFaker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6B92E71B157716EA1E5F521CF2ED154D /* Info.plist */,
+				DA059C9836A49FDB408CCF2446EAA577 /* Pods-zUILabelFaker_Tests.modulemap */,
+				E851C90CA3B3D50C6414FC93E3313B39 /* Pods-zUILabelFaker_Tests-acknowledgements.markdown */,
+				2401A786C0B276F323F0B2C7ECFAB8AF /* Pods-zUILabelFaker_Tests-acknowledgements.plist */,
+				539F08CA9A30EE857C497C4A90A85C7F /* Pods-zUILabelFaker_Tests-dummy.m */,
+				6714DAB1038A400BA2B7F854D4782CE8 /* Pods-zUILabelFaker_Tests-frameworks.sh */,
+				C05E7CC2611EF1C640B774B4B3D9959E /* Pods-zUILabelFaker_Tests-resources.sh */,
+				7D69BC0EC10F035ABB32242B7A2D3248 /* Pods-zUILabelFaker_Tests-umbrella.h */,
+				98923DA82614351152A0D71BCA57B7E8 /* Pods-zUILabelFaker_Tests.debug.xcconfig */,
+				6D5A18151233371AC8B17FC6F1CA1158 /* Pods-zUILabelFaker_Tests.release.xcconfig */,
+			);
+			name = "Pods-zUILabelFaker_Tests";
+			path = "Target Support Files/Pods-zUILabelFaker_Tests";
+			sourceTree = "<group>";
+		};
+		725C2AF791598514E56ED0C028DB5762 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D923689D2593FA22C8525C7CA0ACE246 /* Info.plist */,
+				299A8215271FBF7495EAE94651A46358 /* zUILabelFaker.modulemap */,
+				17C30D49CB3B10427565ECDD0E106526 /* zUILabelFaker.xcconfig */,
+				03A5387F0A88082F72E750C641456806 /* zUILabelFaker-dummy.m */,
+				D6085A6C2B8834949ADD0B1733BDC70D /* zUILabelFaker-prefix.pch */,
+				431A74695B0EE2D59D23C9A56ABA15A9 /* zUILabelFaker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/zUILabelFaker";
+			sourceTree = "<group>";
+		};
+		75B34D50A437B702A87AA88E378AD7A3 /* zUILabelFaker */ = {
+			isa = PBXGroup;
+			children = (
+				CE67FF5F3C012A332EB1B8B5F9668990 /* Classes */,
+			);
+			name = zUILabelFaker;
+			path = zUILabelFaker;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				347CA5A8022499E25EF67C24975531B6 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				33A4AE82E1DA04A83FA1C64E12790771 /* Products */,
+				34A8AD89FCC266BDE5FFB5D0C32D5BA1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE67FF5F3C012A332EB1B8B5F9668990 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				363745A874ECA59E93F4D4D4DF3BBCAF /* ReplaceMe.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F07DD43C927E8B8DDE026E6C5D095CF2 /* Pods-zUILabelFaker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				AE468BAA8DDBD06CBE51A0AB6B9379B3 /* Info.plist */,
+				8F5BABA43534F60225EE9C21780F6A04 /* Pods-zUILabelFaker_Example.modulemap */,
+				E22E96BCBB53404B4BB72D4875E738C8 /* Pods-zUILabelFaker_Example-acknowledgements.markdown */,
+				4374837233A6E3F4D66F4C7A52F90F97 /* Pods-zUILabelFaker_Example-acknowledgements.plist */,
+				D652511612A9BC5C23614CE90CDC04E9 /* Pods-zUILabelFaker_Example-dummy.m */,
+				956988D92E5FDBE200A757936945CEEF /* Pods-zUILabelFaker_Example-frameworks.sh */,
+				8DD827F27FFDB9DB43196D50D3AF13AE /* Pods-zUILabelFaker_Example-resources.sh */,
+				218FA7608DE817E6A384F4341D925C15 /* Pods-zUILabelFaker_Example-umbrella.h */,
+				1B64C8FB3C972DACA7AC60C260688FE9 /* Pods-zUILabelFaker_Example.debug.xcconfig */,
+				EE02C26A1D822BCC1C62E5A1A0182468 /* Pods-zUILabelFaker_Example.release.xcconfig */,
+			);
+			name = "Pods-zUILabelFaker_Example";
+			path = "Target Support Files/Pods-zUILabelFaker_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4F8EFC5D5194CF250117C6C4772C8477 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112179DFA052B681DE0B28B155C56944 /* zUILabelFaker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89ABA0D18E45387A613F481ED232CA2A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E15E70BA46C368D939E823DA0FC86F4 /* Pods-zUILabelFaker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D399FC2FDBB34BEE684C67F762B0F2AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA91050F7FB0BE7DE88263575979A636 /* Pods-zUILabelFaker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6EF0E8F85FBDD9E8D3A62B0C72D540D6 /* zUILabelFaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A941EBB0A8BF1DBC9CAC9E5D6B3CD630 /* Build configuration list for PBXNativeTarget "zUILabelFaker" */;
+			buildPhases = (
+				E6FF19A9158E850B1F57135B177D2411 /* Sources */,
+				1F8DCB3DB29F7787F0172394E4C792F9 /* Frameworks */,
+				4F8EFC5D5194CF250117C6C4772C8477 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zUILabelFaker;
+			productName = zUILabelFaker;
+			productReference = DD453442CBE2A83249A6EBBD45584D76 /* zUILabelFaker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6F3C7EF534F575F4368EAEC31EF96561 /* Pods-zUILabelFaker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D46FF790D9C0205C68C062F8610A93A8 /* Build configuration list for PBXNativeTarget "Pods-zUILabelFaker_Example" */;
+			buildPhases = (
+				C0CABE50118CF2D6890CA62B694E346B /* Sources */,
+				AFB7DF165A6CDD1638E90485966200E7 /* Frameworks */,
+				D399FC2FDBB34BEE684C67F762B0F2AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBBA69DF831A819D662BB487ED135F0D /* PBXTargetDependency */,
+			);
+			name = "Pods-zUILabelFaker_Example";
+			productName = "Pods-zUILabelFaker_Example";
+			productReference = 712C84A464FEB1BD1C3EE3F872EFF593 /* Pods_zUILabelFaker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9AB0EDD8BFB71349E15C5F6B177F18B3 /* Pods-zUILabelFaker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F38BF9BD4390636FF636849A95542CF /* Build configuration list for PBXNativeTarget "Pods-zUILabelFaker_Tests" */;
+			buildPhases = (
+				270B9381DBB17FB7CABA7887E66B399D /* Sources */,
+				0E1B91ADC2EBFB76DB613644412E9188 /* Frameworks */,
+				89ABA0D18E45387A613F481ED232CA2A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-zUILabelFaker_Tests";
+			productName = "Pods-zUILabelFaker_Tests";
+			productReference = 49B14007294EEFAFEA3672A441BFFE6C /* Pods_zUILabelFaker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 33A4AE82E1DA04A83FA1C64E12790771 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F3C7EF534F575F4368EAEC31EF96561 /* Pods-zUILabelFaker_Example */,
+				9AB0EDD8BFB71349E15C5F6B177F18B3 /* Pods-zUILabelFaker_Tests */,
+				6EF0E8F85FBDD9E8D3A62B0C72D540D6 /* zUILabelFaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		270B9381DBB17FB7CABA7887E66B399D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE02F1C784A92CDB00A07A840C2782EA /* Pods-zUILabelFaker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0CABE50118CF2D6890CA62B694E346B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9A9456795E784EDF80864E5369739D5 /* Pods-zUILabelFaker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6FF19A9158E850B1F57135B177D2411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2618646066A1D70BC848A4F0195EE2D /* ReplaceMe.swift in Sources */,
+				312F6837BFC58E50CD8E54E44A3A59A8 /* zUILabelFaker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBBA69DF831A819D662BB487ED135F0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = zUILabelFaker;
+			target = 6EF0E8F85FBDD9E8D3A62B0C72D540D6 /* zUILabelFaker */;
+			targetProxy = 951EB5E8C8B23FA2445767BF145564CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06DC6CEBEDC72472072F47F832320515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE02C26A1D822BCC1C62E5A1A0182468 /* Pods-zUILabelFaker_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-zUILabelFaker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-zUILabelFaker_Example/Pods-zUILabelFaker_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_zUILabelFaker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0DDC1568256204C30EF2A7D5988BF78D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98923DA82614351152A0D71BCA57B7E8 /* Pods-zUILabelFaker_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-zUILabelFaker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-zUILabelFaker_Tests/Pods-zUILabelFaker_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_zUILabelFaker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2F3215B496F930946DB028B309DBEF4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D5A18151233371AC8B17FC6F1CA1158 /* Pods-zUILabelFaker_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-zUILabelFaker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-zUILabelFaker_Tests/Pods-zUILabelFaker_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_zUILabelFaker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5D8731821F8061073B196059935CA002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B64C8FB3C972DACA7AC60C260688FE9 /* Pods-zUILabelFaker_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-zUILabelFaker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-zUILabelFaker_Example/Pods-zUILabelFaker_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_zUILabelFaker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8883506B44E7FE85F7E9A4279DBECBD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17C30D49CB3B10427565ECDD0E106526 /* zUILabelFaker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/zUILabelFaker/zUILabelFaker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/zUILabelFaker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/zUILabelFaker/zUILabelFaker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = zUILabelFaker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC91CA742F2F21A67B6F6BD0C1E91CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17C30D49CB3B10427565ECDD0E106526 /* zUILabelFaker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/zUILabelFaker/zUILabelFaker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/zUILabelFaker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/zUILabelFaker/zUILabelFaker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = zUILabelFaker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F38BF9BD4390636FF636849A95542CF /* Build configuration list for PBXNativeTarget "Pods-zUILabelFaker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DDC1568256204C30EF2A7D5988BF78D /* Debug */,
+				2F3215B496F930946DB028B309DBEF4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A941EBB0A8BF1DBC9CAC9E5D6B3CD630 /* Build configuration list for PBXNativeTarget "zUILabelFaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8883506B44E7FE85F7E9A4279DBECBD3 /* Debug */,
+				EC91CA742F2F21A67B6F6BD0C1E91CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D46FF790D9C0205C68C062F8610A93A8 /* Build configuration list for PBXNativeTarget "Pods-zUILabelFaker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D8731821F8061073B196059935CA002 /* Debug */,
+				06DC6CEBEDC72472072F47F832320515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

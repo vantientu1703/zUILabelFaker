@@ -1,0 +1,6 @@
+framework module Pods_zUILabelFaker_Example {
+  umbrella header "Pods-zUILabelFaker_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

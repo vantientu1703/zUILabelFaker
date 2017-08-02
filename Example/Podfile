@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'zUILabelFaker_Example' do
+  pod 'zUILabelFaker', :path => '../'
+
+  target 'zUILabelFaker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

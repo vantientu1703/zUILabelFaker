@@ -1,0 +1,6 @@
+framework module zUILabelFaker {
+  umbrella header "zUILabelFaker-umbrella.h"
+
+  export *
+  module * { export * }
+}
